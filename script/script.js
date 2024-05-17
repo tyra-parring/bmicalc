@@ -6,8 +6,8 @@ window.addEventListener("load", function() {
         event.preventDefault(); // Preventing form submission
 
         // Get the weight and height values
-        var weight = +documentdocument.getElementById('weight').value;
-        var height = +documentdocument.getElementById('height').value;
+        var weight = +document.getElementById('weight').value;
+        var height = +document.getElementById('height').value;
 
         // Check if weight and height are valid numbers
         if (!isNaN(weight) && !isNaN(height) && height > 0) {
