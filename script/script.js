@@ -15,10 +15,10 @@ document.addEventListener("DOMContentLoaded", function() {
             var heightMeters = height / 100; // Convert height to meters
             var bmi = weight / (heightMeters * heightMeters);
 
-            // Display the result in the answer input field
+            // Displaying the result in the answer input field
             answerInput.value = bmi.toFixed(2);
         } else {
-            // Display error message if input is invalid
+            // Displaying the error message if input is invalid
             answerInput.value = "Invalid input";
         }
     });
