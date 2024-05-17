@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var answerInput = document.getElementById('answer');
 
     bmiForm.addEventListener('submit', function(event) {
-        event.preventDefault(); // Prevent form submission
+        event.preventDefault(); // Preventing form submission
 
         // Get the weight and height values
         var weight = parseFloat(document.getElementById('weight').value);
